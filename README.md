@@ -1,10 +1,11 @@
 # Predicting NBA Hall Of Famers
 
-## Data Collection and Cleaning
+## Data Acquisition and Cleaning
 
-All data was collected off the website https://www.basketball-reference.com/ using Urlib/Regex and cleaned using Pandas/NumPy. Every season of each 4,978 players that have any NBA or ABA stats were scraped. For each of the seasons the Per Game regular season/playoffs and Advanced regular season/playoffs were used. 
+All game data was collected off the website https://www.basketball-reference.com/ and honors/awards acquired from https://en.wikipedia.org/wiki/Main_Page using Urlib/Regex and cleaned using Pandas/NumPy. Every season of each 4,985 players that have any NBA or ABA stats were scraped. For each of the seasons the Per Game regular season/playoffs and Advanced regular season/playoffs were used. 
 
 Features include:
+- Player ID: A unique identifier for each player
 - Player Name
 - Season
 - Age
@@ -59,5 +60,25 @@ Features include:
 - \*Defensive Box Plus/Minus: A box score estimate of the defensive points per 100 possessions a player contributed above a league-average player, translated to an average team.
 - \*Box Plus/Minus: A box score estimate of the points per 100 possessions a player contributed above a league-average player, translated to an average team.
 - \*Value over Replacement Player: A box score estimate of the points per 100 TEAM possessions that a player contributed above a replacement-level (-2.0) player, translated to an average team and prorated to an 82-game season. Multiply by 2.70 to convert to wins over replacement.
+- Hall of Fame
+- HOF Year Inducted
+- Sixth Man of the Year
+- Sportsmanship Award
+- Citizenship Award
+- Most Improved Player Award
+- Defensive Player of the Year
+- Rookie of the Year Award
+- Lifetime Achievement Award
+- Lifetime Achievement Induction
+- MVP Award
+- Finals MVP Award
+- All-Star MVP Award
+- First All-Defensive Team
+- Second All-Defensive Team
+
+- First All-NBA Team
+- Second All-NBA Team
+- First All-Rookie Team
+- Second All-Rookie Team
 
 The * indicates the feature also has a separate playoffs column 
