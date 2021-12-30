@@ -2,7 +2,7 @@
 
 ## Data Acquisition and Cleaning
 
-All game data was collected off the website https://www.basketball-reference.com/ and honors/awards acquired from https://en.wikipedia.org/wiki/Main_Page using Urlib/Regex and cleaned using Pandas/NumPy. Every season of each 4,985 players that have any NBA or ABA stats were scraped. For each of the seasons the Per Game regular season/playoffs and Advanced regular season/playoffs were used. 
+All game data was collected off the website https://www.basketball-reference.com/ and honors/awards acquired from https://en.wikipedia.org/wiki/Main_Page using Urlib/BeautifulSoup/Regex and cleaned using Pandas/NumPy. Every season of each 4,985 players that have any NBA or ABA stats were scraped. For each of the seasons the Per Game regular season/playoffs and Advanced regular season/playoffs were used. 
 
 Features include:
 - Player ID: A unique identifier for each player
@@ -75,10 +75,14 @@ Features include:
 - All-Star MVP Award
 - First All-Defensive Team
 - Second All-Defensive Team
-
 - First All-NBA Team
 - Second All-NBA Team
+- Third All-NBA Team
 - First All-Rookie Team
 - Second All-Rookie Team
+- Last Season Played
 
 The * indicates the feature also has a separate playoffs column 
+
+## Exploratory Data Analysis
+
