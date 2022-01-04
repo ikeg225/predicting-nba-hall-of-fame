@@ -1,6 +1,4 @@
-# Predicting NBA Hall Of Famers
-
-## Data Acquisition and Cleaning
+## Stats DataFrame Details
 
 All game data was collected off the website https://www.basketball-reference.com/ and honors/awards acquired from https://en.wikipedia.org/wiki/Main_Page using Urlib/BeautifulSoup/Regex and cleaned using Pandas/NumPy. Every season of each 4,985 players that have any NBA or ABA stats were scraped. For each of the seasons the Per Game regular season/playoffs and Advanced regular season/playoffs were used. 
 
@@ -83,6 +81,3 @@ Features include:
 - Last Season Played
 
 The * indicates the feature also has a separate playoffs column 
-
-## Exploratory Data Analysis
-
